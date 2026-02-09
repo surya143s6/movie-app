@@ -1,0 +1,31 @@
+.image-container > img{
+    border-radius: 3rem;
+    width:19rem;
+    
+}
+
+.top-bar{
+    display:flex;
+    justify-content: space-between;
+}
+.main{
+    padding:0.5%;
+    width:19rem;
+}
+
+.like-dislike-container{
+    display:flex;
+}
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+    width:19rem;
+}
+.moviesdata-container{
+    display:flex;
+    gap:2rem;
+    flex-wrap: wrap;
+}
+
+
