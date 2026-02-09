@@ -7,14 +7,14 @@ import { Moviesfulldetails } from "./Moviesfulldetails";
 function App() {
   return (
     <>
-      <Moviesdetails />
+      {/* <Moviesdetails /> */}
 
-      {/* <nav>
-        <Link to="/about">About</Link>
+      <nav>
+        <Link to="/movies">Movies</Link>
       </nav>
       <Routes>
-        <Route path="/" element={<App />} />
-      </Routes> */}
+        <Route path="movies" element={<Moviesdetails />} />
+      </Routes>
     </>
   );
 }
