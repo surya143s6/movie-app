@@ -20,7 +20,7 @@ export function Moviesdetails() {
       .then((res) => res.json())
       .then((moviesdata) => setMovies(moviesdata));
   };
-
+  
   const deletemovie = (id) => {
     fetch(`https://6971d21b32c6bacb12c49d77.mockapi.io/movieslist/${id}`, {
       method: "DELETE",
